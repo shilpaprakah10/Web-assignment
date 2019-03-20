@@ -1,0 +1,61 @@
+button {
+    background-color: #000;
+    border: 2px solid #000;
+    color: #FFF;
+    padding: 5px 10px;
+}
+
+input[type = "text"]
+{
+    padding: 5px 10px;
+}
+ ol,li {
+    display: inline-block;
+    padding: 0 3%;
+}
+
+hr {
+    margin: 0 2%;
+}
+
+header, footer {
+    background-color: #FFF;
+}
+
+.text {
+    background-color: #FFF;
+}
+
+
+.box {
+    background-color: #FFF;
+    padding: 1em;
+    position: relative;
+    bottom: 5.5em;
+}
+
+.cities{
+    width:30%;
+    display:inline-block;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
+.moveup {
+    position: relative;
+    bottom: 9em;
+}
+.more{
+    z-index: 5;
+    position: relative;
+    top: 20px;
+    height: 60px;
+    background-color: white;
+}
+
+.end{
+    z-index: 5;
+    position: relative;
+    top: 20px;
+    height: 60px;
+    background-color: green;
+}
